@@ -1,0 +1,59 @@
+/* Media query for devices with width between 220px and 768px */
+@media (min-width: 220px) and (max-width: 768px) {
+    .links ul {
+        display: none;
+    }    
+    #menu {
+        display: block;
+    }
+    .header {
+        flex-direction: column-reverse;
+    }  
+    .header .left {
+        width: 100%;
+    }
+    .header .right {
+        width: 100%;
+    }
+    .chefs .parts .part{
+
+     width: 80%;
+    }
+    
+}
+
+@media (min-width: 220px)and (max-width:550px){
+    .header .btns{
+        flex-direction: column ;
+        text-align: center;
+        
+    }
+    .btns .first{
+        
+        margin-bottom: 20px;
+
+    }
+}
+@media (min-width: 769px) and (max-width: 1020px) {
+    .header {
+        flex-direction: column-reverse;
+        /* justify-content: center; */
+    }  
+    .header .left {
+        width: 100%;
+    }
+    .header .right {
+        width: 100%;
+        text-align: center;
+    }
+    .header .right img{
+        width: 60%;
+        margin: 0 auto;
+
+    }
+
+    .chefs .parts .part{
+        width: 45%;
+    }
+     
+}
